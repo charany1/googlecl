@@ -1,3 +1,3 @@
 """
-Start new feaure for adding Gmail support
+Start new feaure for adding GMail support with GMail API
 """
