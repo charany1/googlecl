@@ -23,6 +23,8 @@ python setup.py install
 
 ## Contribution:
 
+Basically
+
 Few things should be kept in notice before contributing:
 
 - Few changes in the documentation structure and format(Markdown) has

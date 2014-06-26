@@ -271,7 +271,7 @@ def expand_as_command_line(command_string):
     end_list = lambda s: s[-1] == ']' and len(s) > 1 and s[-2] != '\\'
     # Don't need to worry about nesting because of natural syntax:
     # ["foo", ["bar"], "baz"] -> stupid to have '["bar"] ,'
-    while (start_of_quote and not end_quote(tmp)) or (start_of_dict 
+    while (start_of_quote and not end_quote(tmp)) or (start_of_dict
       and not end_dict(tmp)) or (start_of_list and not end_list(tmp)):
       if token_list:
         tmp += ' ' + token_list.pop(0)

@@ -143,7 +143,7 @@ class YouTubeServiceCL(YouTubeService, googlecl.service.BaseServiceCL):
 
   PostVideos = post_videos
 
-  def tag_videos(self, video_entries, tags):
+  def tag_vi deos(self, video_entries, tags):
     """Add or remove tags on a list of videos.
 
     Keyword arguments:
